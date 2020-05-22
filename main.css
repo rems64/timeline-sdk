@@ -1,0 +1,40 @@
+@import url("./colors.css");
+
+body, html
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#firstRow
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#charactersOverview
+{
+    background-color: #212121;
+    outline: solid black 1px;
+    height: 100%;
+    width: 50%;
+}
+
+#preview
+{
+    background-color: #212121;
+    outline: solid black 1px;
+    height: 100%;
+    width: 50%;
+}
+
+#timeline
+{
+    background-color: #424242;
+    outline: solid black 1px;
+    height: 50%;
+    width: 100%;
+}
